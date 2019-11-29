@@ -3,8 +3,8 @@
 !.gitignore
 !build.env
 !default.xml
-!default_conf/*
-!default_conf
+!default-conf/*
+!default-conf
 !deploy/*
 !deploy
 

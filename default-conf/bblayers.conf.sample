@@ -1,0 +1,14 @@
+# Running build.env script will autogenerate content of this file
+
+BBPATH = "${TOPDIR}"
+BBFILES ?= ""
+
+BBLAYERS ?= " \
+  ###_FILL_LAYER_###/layers/poky/meta \
+  ###_FILL_LAYER_###/layers/poky/meta-poky \
+  ###_FILL_LAYER_###/layers/meta-openembedded/meta-python \
+  ###_FILL_LAYER_###/layers/meta-openembedded/meta-oe \
+  ###_FILL_LAYER_###/layers/meta-raspberrypi \
+  ###_FILL_LAYER_###/layers/meta-rpi-custom \
+  "
+

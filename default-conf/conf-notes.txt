@@ -1,0 +1,3 @@
+Custom targets are:
+    mumja-image
+    mumja-gui-image

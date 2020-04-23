@@ -6,6 +6,7 @@ BBFILES ?= ""
 BBLAYERS ?= " \
   ###_FILL_LAYER_###/layers/poky/meta \
   ###_FILL_LAYER_###/layers/poky/meta-poky \
+  ###_FILL_LAYER_###/layers/meta-mumja \
   ###_FILL_LAYER_###/layers/meta-openembedded/meta-gnome \
   ###_FILL_LAYER_###/layers/meta-openembedded/meta-multimedia \
   ###_FILL_LAYER_###/layers/meta-openembedded/meta-networking \
@@ -13,6 +14,5 @@ BBLAYERS ?= " \
   ###_FILL_LAYER_###/layers/meta-openembedded/meta-python \
   ###_FILL_LAYER_###/layers/meta-openembedded/meta-xfce \
   ###_FILL_LAYER_###/layers/meta-raspberrypi \
-  ###_FILL_LAYER_###/layers/meta-mumja \
   "
 

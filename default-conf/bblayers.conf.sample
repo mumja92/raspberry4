@@ -13,6 +13,6 @@ BBLAYERS ?= " \
   ###_FILL_LAYER_###/layers/meta-openembedded/meta-python \
   ###_FILL_LAYER_###/layers/meta-openembedded/meta-xfce \
   ###_FILL_LAYER_###/layers/meta-raspberrypi \
-  ###_FILL_LAYER_###/layers/meta-rpi-custom \
+  ###_FILL_LAYER_###/layers/meta-mumja \
   "
 

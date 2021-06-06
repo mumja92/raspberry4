@@ -6,9 +6,6 @@ MACHINE = "###_FILL_MACHINE_###"
 # Where to place downloads
 DL_DIR = "###_FILL_DL_DIR_###"
 
-# Where to place shared-state files
-SSTATE_DIR = "###_FILL_SSTATE_DIR_###"
-
 # Where to place the build output
 TMPDIR = "${TOPDIR}/tmp"
 
@@ -47,3 +44,12 @@ DISTRO_FEATURES_BACKFILL_CONSIDERED += "sysvinit"
 VIRTUAL-RUNTIME_init_manager = "systemd"
 VIRTUAL-RUNTIME_initscripts = "systemd-compat-units"
 
+# Disable shared state cache
+SSTATE_CREATE_PKG = "0"
+
+# Use Ninja/Makefile
+OECMAKE_GENERATOR = "Ninja"
+#OECMAKE_GENERATOR = "Unix Makefiles"
+
+# Build statistics
+INHERIT += "buildstats"

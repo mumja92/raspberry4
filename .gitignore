@@ -7,4 +7,6 @@
 !default-conf
 !deploy/*
 !deploy
+!scripts/parse_data.py
+!scripts/yocto_build_stats_generator.py
 
